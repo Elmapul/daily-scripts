@@ -46,14 +46,20 @@ MyAnimeList
 
 Grab user watched list for CMS systems compatible with spoiler protection systems (allow only Watched episodes pictures, automatic show instead of spoiler button)
 
-Others
+Other bots
 ========
 Ability to download list of songs of cd's (from diferent sources) priority: anime
 downlaod music lyrics
-list episodes/musics avaliables (existence know by the sources) and owned on
+list episodes/musics avaliables (existence know by the sources) and owned on user devices (your library compared to the full library of the franchises you care about)
 
+compare the same information on diferent sources to avoid to much credibility for one source (mistakes happens) and inform user when diferent sources say different things about the same issue (example: page A say the name of 4º track is X page B say its Y)
+
+Mirror informations to avoid DDOS (all sources)
+MD5 checksum information and files
 
 Controversies
 ============
-show ad's from the source of the information
+show ad's from the sources of the information and mirrors
 add billing system for information providers  as alternative to ad's 
+
+billing integration of donations for this project
