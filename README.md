@@ -55,7 +55,10 @@ list episodes/musics avaliables (existence know by the sources) and owned on use
 compare the same information on diferent sources to avoid to much credibility for one source (mistakes happens) and inform user when diferent sources say different things about the same issue (example: page A say the name of 4º track is X page B say its Y)
 
 Mirror informations to avoid DDOS (all sources)
+P2P mirror network
 MD5 checksum information and files
+
+search for similar projects and add inter-operability with then.
 
 Controversies
 ============
