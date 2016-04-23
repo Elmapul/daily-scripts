@@ -1,0 +1,2 @@
+#edit for your number of cores
+for i in 0 1 2 3; do cpufreq-set -g performance -c $i; done
