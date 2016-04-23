@@ -52,8 +52,7 @@ MD5 checksum information and files
 
 search for similar projects and add inter-operability with then.
 
-Controversies
-============
+Revenue:
 show ad's from the sources of the information and mirrors
 add billing system for information providers  as alternative to ad's 
 
