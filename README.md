@@ -6,9 +6,7 @@ leachers:
 download information from diferent sources and store or present it on diferent interfaces
 
 
-temperature.sh 
-=============
-
+*temperature.sh 
 Read in loud voice (in portuguese brazilian) the temperature of "rio de janeiro" for the next week
 
 To-do:
