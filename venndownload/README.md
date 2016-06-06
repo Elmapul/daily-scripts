@@ -1,1 +1,1 @@
-future plugin for open office
+future plugin for open office or libre office
