@@ -4,5 +4,9 @@
 sudo apt-get install xclip -y
 sudo apt-get install youtube-dl -y
 
+#html as wallpaper
+#sudo apt-get install Wallch
+
+
 #Setup audio
 #http://www.overclock.net/a/how-to-get-the-best-sound-with-and-properly-configure-pulseaudio
