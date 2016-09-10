@@ -22,6 +22,13 @@ sudo apt-get install npm
 
 sudo apt-get install nodejs-legacy
 
+#sudo apt-get install nodejs
+#sudo apt-get install npm
+ #   sudo npm install -g node-red
+  #  node-red
+   # Open http://localhost:1880
+
+
 #caso não funcione
 #http://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm-for-ubuntu-14-04-lts
 
