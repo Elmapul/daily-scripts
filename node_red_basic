@@ -1,0 +1,1 @@
+[{"id":"d2ea6d6b.2d159","type":"http in","name":"","url":"/hello","method":"get","x":160,"y":400,"wires":[["4ea73e4a.b158c"]]},{"id":"4ea73e4a.b158c","type":"template","name":"","template":"Hello World!","x":301,"y":401,"wires":[["d6c85f9.f2937a"]]},{"id":"d6c85f9.f2937a","type":"http response","name":"","x":443,"y":402,"wires":[]}]
