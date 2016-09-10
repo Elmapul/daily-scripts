@@ -10,3 +10,13 @@ sudo apt-get install youtube-dl -y
 
 #Setup audio
 #http://www.overclock.net/a/how-to-get-the-best-sound-with-and-properly-configure-pulseaudio
+
+sudo apt-get install nodejs
+sudo apt-get install npm
+
+
+    sudo npm install -g node-red
+    node-red
+#    Open http://localhost:1880
+#firefox? google-chrome?
+
