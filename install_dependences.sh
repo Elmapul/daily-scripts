@@ -21,3 +21,6 @@ sudo apt-get install npm
 #firefox? google-chrome?
 
 sudo apt-get install nodejs-legacy
+
+#caso não funcione
+#http://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm-for-ubuntu-14-04-lts
