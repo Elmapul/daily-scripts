@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name customEmoti
+// @namespace discordEmoti
+// @include https://discordapp.com/*
+// @version 1
+// @grant none
+// ==/UserScript==
+document.body.addEventListener('mousedown', function(event) {
+//alert("funciona");
+document.getElementsByClassName("channel-textarea-inner")[0].onchange = function(){ var aux=document.getElementsByClassName("channel-textarea-inner")[0]; var aux2= aux.childNodes[1];
+var str = aux2.value; var n = str.search(/w3Schools/i); aux2.value= n; };
+}, false);
