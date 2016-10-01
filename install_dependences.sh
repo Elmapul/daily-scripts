@@ -20,6 +20,9 @@ sudo apt-get install npm
 #    Open http://localhost:1880
 #firefox? google-chrome?
 
+#
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+#ou
 sudo apt-get install nodejs-legacy
 
 #sudo apt-get install nodejs
