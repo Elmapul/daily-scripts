@@ -17,7 +17,7 @@ src[0].appendChild(img);
 
 
 //video-stream html5-main-video
-var src2 = document.getElementsByClassName("player-api");
+var src2 = document.getElementsByClassName("video-stream");
 var aux2=src2.item(0);
 var aux3=aux2.offsetHeight;
 var tmp="-"+aux3+"px";
