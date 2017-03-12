@@ -1,7 +1,7 @@
 var img = document.createElement("img");
 
 //an example image, it need to be https!
-img.src = "https://67.media.tumblr.com/bee68f4f49204a6ecf1f0a56656fde50/tumblr_nqfj0wXnif1uxtzn8o1_500.png";
+img.src = "https://raw.githubusercontent.com/Elmapul/daily-scripts/master/themes/Copyleft.png";
 
 
 img.style.position="relative";
