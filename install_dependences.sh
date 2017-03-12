@@ -37,3 +37,13 @@ sudo apt-get install nodejs-legacy
 
 
 #https://github.com/node-red/node-red
+
+
+#todo.txt
+#i dont know if those 2 steps are required:
+#sudo apt-get install python-dev
+#//sudo easy_install py-notify
+
+sudo apt-get install python-pyinotify
+create the file:
+~/todo.txt
