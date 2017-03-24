@@ -47,3 +47,22 @@ sudo apt-get install nodejs-legacy
 sudo apt-get install python-pyinotify
 create the file:
 ~/todo.txt
+
+
+#web assembly compile tools:
+#http://webassembly.org/getting-started/developers-guide/
+git clone https://github.com/juj/emsdk.git
+
+
+sudo apt-get install build-essential
+
+
+apt-get purge cmake
+
+cp -r bin /usr/
+cp -r doc /usr/share/
+cp -r man /usr/share/
+cp -r share /usr/
+
+#CMake=/home/ubuntu/Downloads/cmake-3.7.2-Linux-x86_64/bin/cmake
+ ./emsdk install sdk-incoming-64bit binaryen-master-64bit
