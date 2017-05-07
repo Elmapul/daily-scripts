@@ -56,13 +56,24 @@ git clone https://github.com/juj/emsdk.git
 
 sudo apt-get install build-essential
 
+##i cant remember why i did that, but its deprecated.
+#apt-get purge cmake
 
-apt-get purge cmake
+#cp -r bin /usr/
+#cp -r doc /usr/share/
+#cp -r man /usr/share/
+#cp -r share /usr/
+##
 
-cp -r bin /usr/
-cp -r doc /usr/share/
-cp -r man /usr/share/
-cp -r share /usr/
 
 #CMake=/home/ubuntu/Downloads/cmake-3.7.2-Linux-x86_64/bin/cmake
  ./emsdk install sdk-incoming-64bit binaryen-master-64bit
+ 
+ #in case this ^ dont work, try
+ 
+sudo apt-get update
+git pull
+
+./emsdk install latest
+./emsdk activate latest
+./emsdk_env.sh
