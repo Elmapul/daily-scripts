@@ -77,3 +77,5 @@ git pull
 ./emsdk install latest
 ./emsdk activate latest
 ./emsdk_env.sh
+ 
+ sudo apt-get install emscripten
