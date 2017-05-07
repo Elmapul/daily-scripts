@@ -48,7 +48,7 @@ sudo apt-get install python-pyinotify
 create the file:
 ~/todo.txt
 
-
+##############
 #web assembly compile tools:
 #http://webassembly.org/getting-started/developers-guide/
 git clone https://github.com/juj/emsdk.git
@@ -79,3 +79,18 @@ git pull
 ./emsdk_env.sh
  
  sudo apt-get install emscripten
+
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+#^useless?
+#if so, uninstall
+###
+#sudo ppa-purge ppa:ubuntu-toolchain-r/test
+#sudo apt-get install ppa-purge
+#sudo ppa-purge ppa:ubuntu-toolchain-r/test
+
+
+sudo apt-get install gcc-4.9
+#sudo apt-get install gcc-4.9-multilib 
