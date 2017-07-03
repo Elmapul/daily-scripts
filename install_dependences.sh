@@ -94,3 +94,7 @@ sudo apt-get upgrade
 
 sudo apt-get install gcc-4.9
 #sudo apt-get install gcc-4.9-multilib 
+
+#list indicator
+sudo add-apt-repository ppa:launcher-list-indicator/ppa 
+sudo apt-get update && sudo apt-get install launcher-list-indicator
