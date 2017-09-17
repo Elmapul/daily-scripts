@@ -98,3 +98,17 @@ sudo apt-get install gcc-4.9
 #list indicator
 sudo add-apt-repository ppa:launcher-list-indicator/ppa 
 sudo apt-get update && sudo apt-get install launcher-list-indicator
+
+##############
+# before
+$ avconv |& grep \ version | awk '{print $3}'
+9.18-6:9.18-0ubuntu0.14.04.1,
+
+$ sudo add-apt-repository ppa:heyarje/libav-11 && sudo apt-get update
+$ sudo apt-get install libav-tools
+
+# after
+$ avconv |& grep \ version | awk '{print $3}'
+11.3-6:11.3-1~trusty,
+
+
