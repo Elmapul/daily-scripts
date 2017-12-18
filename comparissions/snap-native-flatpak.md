@@ -3,9 +3,9 @@
 #Blender flatkpak 2.78
 #Blender-tpaw 2.78
 
-#Use case
+*Use case
 
-#normal usage, default instalation:
+normal usage, default instalation:
 
 Flatpak crashes if you right click.
 Solution:
