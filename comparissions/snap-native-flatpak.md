@@ -1,10 +1,14 @@
 Operating system config
 ============
 
->Ubuntu 14.04
+Ubuntu 14.04
 
 Blender installs 
 ============
+
+- George Washington
+- John Adams
+- Thomas Jefferson
 
   **Ubuntu 14.04**
   -Blender 2.69 (native)
