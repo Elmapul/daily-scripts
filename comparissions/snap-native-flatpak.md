@@ -1,4 +1,4 @@
-Operating system config
+Operating system
 ============
 
 - Ubuntu 14.04
