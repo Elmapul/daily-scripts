@@ -14,16 +14,16 @@ Blender installs
 Use cases
 ==========
 - Works out of the box (default instalation)
-Native [x]
-Blender-tpaw (Snap) [x]
-Blender Flatpak [ ] (no launcher icon
+- [x] Native 
+- [x] Blender-tpaw (Snap) 
+- [ ] Blender Flatpak  
   - no launcher icon
-  -crashes if you right click, solution found at: https://developer.blender.org/T47860
+  - crashes if you right click, solution found at: https://developer.blender.org/T47860
 
 - Manuel Bastioni
-Native [ ]
-Blender-tpaw (Snap) [x]
-Blender Flatpak [x]
+- [ ] Native
+- [x] Blender-tpaw (Snap)
+- [x] Blender Flatpak
 
 - MMD import
 - [x] Native 
@@ -31,7 +31,9 @@ Blender Flatpak [x]
 - [ ] Blender Flatpak 
 
 - Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
-Native [ ] (don't update the image)
-Blender-tpaw (Snap) [ ] (can't find the camera)
-Blender Flatpak [x]
+- [ ] Native 
+  * (don't update the image)
+- [ ] Blender-tpaw (Snap) 
+  *(can't find the camera)
+- [x] Blender Flatpak 
 
