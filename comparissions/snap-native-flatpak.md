@@ -3,7 +3,7 @@ Operating system
 
 - Ubuntu 14.04
 
-Blender installs 
+Blender installations 
 ============
   
 - Blender 2.69 (native)
