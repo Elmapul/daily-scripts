@@ -55,4 +55,5 @@ Aditional Bugs
 
 ------
 atempt to fix
-sudo snap connect blender-tpaw:camera core:camera  
+sudo snap connect blender-tpaw:camera core:camera   (fail)
+sudo snap connect blender-tpaw:x11 core:camera (fail)
