@@ -26,9 +26,9 @@ Blender-tpaw (Snap) [x]
 Blender Flatpak [x]
 
 - MMD import
-Native [x]
-Blender-tpaw (Snap) [ ]
-Blender Flatpak [ ]
+[x] Native 
+[ ] Blender-tpaw (Snap) 
+[ ] Blender Flatpak 
 
 - Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
 Native [ ] (don't update the image)
