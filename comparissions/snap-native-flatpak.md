@@ -32,6 +32,12 @@ Use cases
   * ascii codec can't encode characters in position ...
 - [x] Blender Flatpak 
 
+MMD render (Node editor: MMD shader > output material )
+- [x] Native 
+- [x] Blender-tpaw (Snap) 
+ * crash
+- [ ] Blender Flatpak
+
 
 - Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
 - [ ] Native 
