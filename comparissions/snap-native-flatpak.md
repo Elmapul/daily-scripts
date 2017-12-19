@@ -34,9 +34,9 @@ Use cases
 
 MMD render (Node editor: MMD shader > output material )
 - [x] Native 
-- [x] Blender-tpaw (Snap) 
+- [ ] Blender-tpaw (Snap) 
  * crash
-- [ ] Blender Flatpak
+- [x] Blender Flatpak
 
 
 - Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
