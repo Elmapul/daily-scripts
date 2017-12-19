@@ -28,7 +28,9 @@ Use cases
 - MMD import
 - [x] Native 
 - [ ] Blender-tpaw (Snap) 
+  * ascii codec can't encode characters in position ...
 - [x] Blender Flatpak 
+
 
 - Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
 - [ ] Native 
