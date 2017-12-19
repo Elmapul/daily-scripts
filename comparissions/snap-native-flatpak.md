@@ -30,7 +30,8 @@ Native [x]
 Blender-tpaw (Snap) [ ]
 Blender Flatpak [ ]
 
-- Webcam as texture
+- Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
 Native [ ] (don't update the image)
 Blender-tpaw (Snap) [ ] (can't find the camera)
 Blender Flatpak [x]
+
