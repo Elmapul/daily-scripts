@@ -21,7 +21,8 @@ Use cases
   - crashes if you right click, solution found at: https://developer.blender.org/T47860
 
 - Manuel Bastioni
-- [ ] Native
+- [ ] Native 
+  - Require Blender 2.78 or higher
 - [x] Blender-tpaw (Snap)
 - [x] Blender Flatpak
 
