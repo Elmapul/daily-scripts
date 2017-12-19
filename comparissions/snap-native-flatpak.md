@@ -20,13 +20,13 @@ Use cases
   - no launcher icon
   - crashes if you right click, solution found at: https://developer.blender.org/T47860
 
-- Manuel Bastioni
+- Manuel Bastioni (add'on)
 - [ ] Native 
   - Require Blender 2.78 or higher
 - [x] Blender-tpaw (Snap)
 - [x] Blender Flatpak
 
-- MMD import
+- MMD import (add'on)
 - [x] Native 
 - [ ] Blender-tpaw (Snap) 
   * ascii codec can't encode characters in position ...
