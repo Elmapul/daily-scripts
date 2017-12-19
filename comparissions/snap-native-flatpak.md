@@ -53,3 +53,6 @@ Aditional Bugs
 - [ ] Blender-tpaw (Snap)
 - [x] flatpak
 
+------
+atempt to fix
+sudo snap connect blender-tpaw:camera core:camera  
