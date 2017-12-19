@@ -39,3 +39,10 @@ Use cases
   * (can't find the camera)
 - [x] Blender Flatpak 
 
+Aditional Bugs
+==========
+- system find tons of filesystems (probably they are snaps fs)
+- [x] native
+- [ ] Blender-tpaw (Snap)
+- [x] flatpak
+
