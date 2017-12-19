@@ -34,6 +34,6 @@ Use cases
 - [ ] Native 
   * (don't update the image)
 - [ ] Blender-tpaw (Snap) 
-  *(can't find the camera)
+  * (can't find the camera)
 - [x] Blender Flatpak 
 
