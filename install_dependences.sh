@@ -111,4 +111,10 @@ $ sudo apt-get install libav-tools
 $ avconv |& grep \ version | awk '{print $3}'
 11.3-6:11.3-1~trusty,
 
+##############
+#screen capture on python
+#https://pypi.python.org/pypi/pyscreenshot
+sudo apt-get install python-pip
+sudo apt-get install python-pil
+sudo pip install pyscreenshot
 
