@@ -28,7 +28,7 @@ Use cases
 - MMD import
 - [x] Native 
 - [ ] Blender-tpaw (Snap) 
-- [ ] Blender Flatpak 
+- [x] Blender Flatpak 
 
 - Webcam as texture (https://www.youtube.com/watch?v=lwi-2nXH3vc )
 - [ ] Native 
