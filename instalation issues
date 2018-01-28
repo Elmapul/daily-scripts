@@ -1,3 +1,8 @@
 blender app image>
 right click crashes:
 https://docs.blender.org/manual/en/dev/troubleshooting/3d_view.html#slow-selection
+
+
+OpenGL Occlusion Queries (User Preferences)
+
+    See User Preferences ‣ System ‣ Selection
