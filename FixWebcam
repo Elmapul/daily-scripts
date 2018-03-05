@@ -1,0 +1,4 @@
+sudo apt-get install guvcview
+guvcview -o
+turn out Automatic Light Correction
+#https://elementaryos.stackexchange.com/questions/9690/webcam-extremely-slow-in-snap-how-can-i-fix-it
