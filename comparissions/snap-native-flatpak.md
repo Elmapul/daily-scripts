@@ -15,7 +15,8 @@ Use cases
 ==========
 - Works out of the box (default instalation)
 - [x] Native 
-- [x] Blender-tpaw (Snap) 
+- [x] Blender-tpaw (Snap)
+  -no audio on video sequence editor (the audio is set to openAL)
 - [ ] Blender Flatpak  
   - no launcher icon
   - crashes if you right click, solution found at: https://developer.blender.org/T47860
