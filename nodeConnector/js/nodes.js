@@ -269,43 +269,22 @@ Node.prototype.initUI = function(){
 
 // DEMO
 // ========
+var nodes=[];
+nodes[1]= new Node('Another One');
+nodes[1].addInput('player x');
+nodes[1].addInput('player y');
+nodes[1].addInput('payer z');
+nodes[1].moveTo({x: 150, y: 20});
 
-// Node 1
-var node = new Node('Another One');
-node.addInput('player x');
-node.addInput('player y');
-node.addInput('payer z');
 
-// Node 2
-var node2 = new Node('Node 2');
-node2.addInput('Text In');
-node2.addInput('Value 5');
+nodes[2]= new Node('Another One');
+nodes[2].addInput('player x');
+nodes[2].addInput('player y');
+nodes[2].moveTo({x: 350, y: 20});
 
-// Node 3
-var node3 = new Node('Something Else');
-node3.addInput('Color4');
-node3.addInput('Position');
-node3.addInput('Noise Octaves');
 
-// Node 3
-var node4 = new Node('Something 2');
-node4.addInput('Color4');
-node4.addInput('Position');
-node4.addInput('Noise Octaves');
 
-// Move to initial positions
-node.moveTo({x: 150, y: 20});
-node2.moveTo({x: 20, y: 70});
-node3.moveTo({x:300, y:150});
-node4.moveTo({x:400, y:450});
+nodes[2].connectTo(nodes[1].inputs[0]);
+nodes[1].initUI();
+nodes[2].initUI();
 
-// Connect Nodes
-node.connectTo(node2.inputs[0]);
-node3.connectTo(node2.inputs[1]);
-node3.connectTo(node.inputs[0]);
-
-// Add to DOM
-node.initUI();
-node2.initUI();
-node3.initUI();
-node4.initUI();
