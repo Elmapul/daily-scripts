@@ -118,3 +118,6 @@ sudo apt-get install python-pip
 sudo apt-get install python-pil
 sudo pip install pyscreenshot
 
+##
+vlc snap
+XVideo output  (xcb)
