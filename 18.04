@@ -1,3 +1,4 @@
 https://itsfoss.com/fix-right-click-touchpad-ubuntu/
 sudo apt install gnome-tweaks
 touch ~/Modelos/"Untitled Document"
+gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
