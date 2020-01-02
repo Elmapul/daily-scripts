@@ -6,3 +6,5 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
 #from the soft center, install:
 Dash to Panel and Arc menu 
+
+http://ubuntuhandbook.org/index.php/2018/10/add-show-desktop-button-ubuntu-18-10-18-04/
