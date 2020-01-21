@@ -8,3 +8,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 Dash to Panel and Arc menu 
 
 http://ubuntuhandbook.org/index.php/2018/10/add-show-desktop-button-ubuntu-18-10-18-04/
+
+#fix the file selection on nautilus
+gsettings set org.gnome.nautilus.preferences use-experimental-views false
