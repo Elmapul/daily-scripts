@@ -11,3 +11,6 @@ http://ubuntuhandbook.org/index.php/2018/10/add-show-desktop-button-ubuntu-18-10
 
 #fix the file selection on nautilus
 gsettings set org.gnome.nautilus.preferences use-experimental-views false
+
+#abrir com wine
+sudo ln -s /usr/share/doc/wine-stable/examples/wine.desktop /usr/share/applications/
