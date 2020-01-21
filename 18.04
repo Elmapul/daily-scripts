@@ -14,3 +14,6 @@ gsettings set org.gnome.nautilus.preferences use-experimental-views false
 
 #abrir com wine
 sudo ln -s /usr/share/doc/wine-stable/examples/wine.desktop /usr/share/applications/
+
+#thumbnails no dolphin
+https://askubuntu.com/questions/1170475/dolphin-under-gnome-doesnt-display-any-thumbnail-how-to-fix
