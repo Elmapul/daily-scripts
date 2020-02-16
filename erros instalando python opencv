@@ -1,3 +1,30 @@
+python script failed, check the message in the console 
+
+(there is no message in the console)
+
+
+looks like i did something wrong and instaled it on the wrong python version, instead of instaling it on the python bundled with blender, i instaled it on the default python 3.7 from ubuntu 18.04
+
+
+so, i dont know how to make which command run the same python as blender is using, instead i tried again by runing 
+
+
+
+>./python3.7m -m ensurepip
+Looking in links: /tmp/tmpz4cqdem0
+Collecting setuptools
+Requirement already satisfied: pip in /home/elmapul/.local/lib/python3.7/site-packages (20.0.2)
+Installing collected packages: setuptools
+Successfully installed setuptools-40.8.0
+
+
+
+>./python3.7m -m pip install --upgrade pip --user
+Requirement already up-to-date: pip in /home/elmapul/.local/lib/python3.7/site-packages (20.0.2)
+
+https://www.youtube.com/watch?v=O7nNO3FLkLU
+
+
 ./python3.7m -m pip install opencv-python opencv-contrib-python imutils numpy dlib --user
 Collecting opencv-python
   Downloading opencv_python-4.2.0.32-cp37-cp37m-manylinux1_x86_64.whl (28.2 MB)
