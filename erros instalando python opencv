@@ -1,0 +1,330 @@
+./python3.7m -m pip install opencv-python opencv-contrib-python imutils numpy dlib --user
+Collecting opencv-python
+  Downloading opencv_python-4.2.0.32-cp37-cp37m-manylinux1_x86_64.whl (28.2 MB)
+     |████████████████████████████████| 28.2 MB 94 kB/s 
+Collecting opencv-contrib-python
+  Downloading opencv_contrib_python-4.2.0.32-cp37-cp37m-manylinux1_x86_64.whl (34.2 MB)
+     |████████████████████████████████| 34.2 MB 6.7 MB/s 
+Collecting imutils
+  Using cached imutils-0.5.3.tar.gz (17 kB)
+Collecting numpy
+  Downloading numpy-1.18.1-cp37-cp37m-manylinux1_x86_64.whl (20.1 MB)
+     |████████████████████████████████| 20.1 MB 6.7 MB/s 
+Collecting dlib
+  Using cached dlib-19.19.0.tar.gz (3.2 MB)
+Installing collected packages: numpy, opencv-python, opencv-contrib-python, imutils, dlib
+    Running setup.py install for imutils ... done
+    Running setup.py install for dlib ... error
+    
+    
+    ##there is an "overflow" of messages with the text in red bellow
+    
+    
+    ERROR: Command errored out with exit status 1:
+     command: /home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/bin/python3.7m -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-8v1ldwb6/dlib/setup.py'"'"'; __file__='"'"'/tmp/pip-install-8v1ldwb6/dlib/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-vadv6g5c/install-record.txt --single-version-externally-managed --user --prefix= --compile --install-headers /home/elmapul/.local/include/python3.7m/dlib
+         cwd: /tmp/pip-install-8v1ldwb6/dlib/
+    Complete output (302 lines):
+    running install
+    running build
+    running build_py
+    package init file 'dlib/__init__.py' not found (or not a regular file)
+    running build_ext
+    Building extension for Python 3.7.4 (default, Oct  8 2019, 15:23:02)
+    Invoking CMake setup: 'cmake /tmp/pip-install-8v1ldwb6/dlib/tools/python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/pip-install-8v1ldwb6/dlib/build/lib.linux-x86_64-3.7 -DPYTHON_EXECUTABLE=/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/bin/python3.7m -DCMAKE_BUILD_TYPE=Release'
+    -- The C compiler identification is GNU 7.4.0
+    -- The CXX compiler identification is GNU 7.4.0
+    -- Check for working C compiler: /usr/bin/cc
+    -- Check for working C compiler: /usr/bin/cc -- works
+    -- Detecting C compiler ABI info
+    -- Detecting C compiler ABI info - done
+    -- Detecting C compile features
+    -- Detecting C compile features - done
+    -- Check for working CXX compiler: /usr/bin/c++
+    -- Check for working CXX compiler: /usr/bin/c++ -- works
+    -- Detecting CXX compiler ABI info
+    -- Detecting CXX compiler ABI info - done
+    -- Detecting CXX compile features
+    -- Detecting CXX compile features - done
+    -- Found PythonInterp: /home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/bin/python3.7m (found version "3.7.4")
+    -- Found PythonLibs: python3.7m
+    -- Performing Test HAS_CPP14_FLAG
+    -- Performing Test HAS_CPP14_FLAG - Success
+    -- pybind11 v2.2.2
+    -- Using CMake version: 3.10.2
+    -- Compiling dlib version: 19.19.0
+    -- SSE4 instructions can be executed by the host processor.
+    -- AVX instructions can be executed by the host processor.
+    -- Enabling AVX instructions
+    -- Looking for pthread.h
+    -- Looking for pthread.h - found
+    -- Looking for pthread_create
+    -- Looking for pthread_create - not found
+    -- Looking for pthread_create in pthreads
+    -- Looking for pthread_create in pthreads - not found
+    -- Looking for pthread_create in pthread
+    -- Looking for pthread_create in pthread - found
+    -- Found Threads: TRUE
+    -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+    -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+    -- Looking for gethostbyname
+    -- Looking for gethostbyname - found
+    -- Looking for connect
+    -- Looking for connect - found
+    -- Looking for remove
+    -- Looking for remove - found
+    -- Looking for shmat
+    -- Looking for shmat - found
+    -- Looking for IceConnectionNumber in ICE
+    -- Looking for IceConnectionNumber in ICE - found
+    -- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+    -- Found system copy of libpng: /usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libz.so
+    -- Searching for BLAS and LAPACK
+    -- Searching for BLAS and LAPACK
+    -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+    -- Checking for module 'cblas'
+    --   No package 'cblas' found
+    -- Checking for module 'lapack'
+    --   No package 'lapack' found
+    -- Looking for sys/types.h
+    -- Looking for sys/types.h - found
+    -- Looking for stdint.h
+    -- Looking for stdint.h - found
+    -- Looking for stddef.h
+    -- Looking for stddef.h - found
+    -- Check size of void*
+    -- Check size of void* - done
+     *****************************************************************************
+     *** No BLAS library found so using dlib's built in BLAS.  However, if you ***
+     *** install an optimized BLAS such as OpenBLAS or the Intel MKL your code ***
+     *** will run faster.  On Ubuntu you can install OpenBLAS by executing:    ***
+     ***    sudo apt-get install libopenblas-dev liblapack-dev                 ***
+     *** Or you can easily install OpenBLAS from source by downloading the     ***
+     *** source tar file from http://www.openblas.net, extracting it, and      ***
+     *** running:                                                              ***
+     ***    make; sudo make install                                            ***
+     *****************************************************************************
+    CUDA_TOOLKIT_ROOT_DIR not found or specified
+    -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "7.5")
+    -- DID NOT FIND CUDA
+    -- Disabling CUDA support for dlib.  DLIB WILL NOT USE CUDA
+    -- C++11 activated.
+    -- Configuring done
+    -- Generating done
+    -- Build files have been written to: /tmp/pip-install-8v1ldwb6/dlib/build/temp.linux-x86_64-3.7
+    Invoking CMake build: 'cmake --build . --config Release -- -j4'
+    Scanning dependencies of target dlib
+    [  1%] Building CXX object dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o
+    [  1%] Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o
+    [  2%] Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o
+    [  3%] Building CXX object dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o
+    [  3%] Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o
+    [  4%] Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o
+    [  5%] Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o
+    [  6%] Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o
+    [  6%] Building CXX object dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o
+    [  7%] Building CXX object dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o
+    [  8%] Building CXX object dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o
+    [  9%] Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
+    [ 10%] Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
+    [ 10%] Building CXX object dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
+    [ 11%] Building CXX object dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
+    [ 12%] Building CXX object dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
+    [ 13%] Building CXX object dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
+    In file included from /tmp/pip-install-8v1ldwb6/dlib/dlib/filtering/../matrix.h:11:0,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/filtering/kalman_filter.h:7,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/filtering/kalman_filter.cpp:6:
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/filtering/../matrix/matrix_la.h: In function ‘long int dlib::svd4(dlib::svd_u_mode, bool, const dlib::matrix_exp<EXP>&, dlib::matrix<typename EXP::type, uM, uN, MM1, L1>&, dlib::matrix<typename EXP::type, qN, qX, MM2, L1>&, dlib::matrix<typename EXP::type, vM, vN, MM3, L1>&) [with EXP = dlib::matrix_op<dlib::op_trans<dlib::matrix_op<dlib::op_trans<dlib::matrix<double, 1, 2, dlib::memory_manager_stateless_kernel_1<char>, dlib::row_major_layout> > > > >; long int qN = 1; long int qX = 1; long int uM = 1; long int uN = 1; long int vM = 2; long int vN = 1; MM1 = dlib::memory_manager_stateless_kernel_1<char>; MM2 = dlib::memory_manager_stateless_kernel_1<char>; MM3 = dlib::memory_manager_stateless_kernel_1<char>; L1 = dlib::row_major_layout]’:
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/filtering/../matrix/matrix_la.h:225:32: warning: iteration 1 invokes undefined behavior [-Waggressive-loop-optimizations]
+                 y = abs(q(i)) + abs(e(i));
+                                 ~~~^~~~~~
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/filtering/../matrix/matrix_la.h:163:20: note: within this loop
+             for (i=0; i<n; i++)
+                       ~^~
+    [ 13%] Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
+    [ 14%] Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
+    [ 15%] Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
+    [ 16%] Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o
+    [ 16%] Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o
+    [ 17%] Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o
+    [ 18%] Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o
+    [ 19%] Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o
+    [ 20%] Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o
+    [ 20%] Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o
+    [ 21%] Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o
+    [ 22%] Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o
+    [ 23%] Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o
+    [ 23%] Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o
+    [ 24%] Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o
+    [ 25%] Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o
+    [ 26%] Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o
+    [ 26%] Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o
+    [ 27%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o
+    [ 28%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o
+    [ 29%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o
+    [ 30%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o
+    [ 30%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o
+    [ 31%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o
+    [ 32%] Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o
+    [ 33%] Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o
+    [ 33%] Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o
+    [ 34%] Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o
+    [ 35%] Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o
+    [ 36%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
+    [ 36%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o
+    [ 37%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o
+    [ 38%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o
+    [ 39%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
+    [ 40%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
+    [ 40%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
+    [ 41%] Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
+    [ 42%] Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
+    [ 43%] Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
+    [ 43%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+    [ 44%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+    [ 45%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+    [ 46%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+    [ 46%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+    [ 47%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+    [ 48%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+    [ 49%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+    [ 50%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+    [ 50%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+    [ 51%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+    [ 52%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+    [ 53%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+    [ 53%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+    [ 54%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+    [ 55%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+    [ 56%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+    [ 56%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+    [ 57%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+    [ 58%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+    [ 59%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+    [ 60%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+    [ 60%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+    [ 61%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+    [ 62%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+    [ 63%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+    [ 63%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+    [ 64%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+    [ 65%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+    [ 66%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+    [ 66%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+    [ 67%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+    [ 68%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+    [ 69%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+    [ 70%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+    [ 70%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+    [ 71%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+    [ 72%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+    [ 73%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+    [ 73%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+    [ 74%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+    [ 75%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+    [ 76%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+    [ 76%] Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
+    [ 77%] Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
+    [ 78%] Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
+    [ 79%] Linking CXX static library libdlib.a
+    [ 79%] Built target dlib
+    Scanning dependencies of target dlib_python
+    [ 80%] Building CXX object CMakeFiles/dlib_python.dir/src/dlib.cpp.o
+    [ 80%] Building CXX object CMakeFiles/dlib_python.dir/src/matrix.cpp.o
+    [ 81%] Building CXX object CMakeFiles/dlib_python.dir/src/vector.cpp.o
+    [ 82%] Building CXX object CMakeFiles/dlib_python.dir/src/svm_c_trainer.cpp.o
+    In file included from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pytypes.h:12:0,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/cast.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/attr.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pybind11.h:43,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python/pybind_utils.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/opaque_types.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/dlib.cpp:4:
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/detail/common.h:111:10: fatal error: Python.h: Arquivo ou diretório inexistente
+     #include <Python.h>
+              ^~~~~~~~~~
+    In file included from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pytypes.h:12:0,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/cast.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/attr.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pybind11.h:43,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python/pybind_utils.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/opaque_types.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/matrix.cpp:4:
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/detail/common.h:111:10: fatal error: Python.h: Arquivo ou diretório inexistente
+     #include <Python.h>
+              ^~~~~~~~~~
+    In file included from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pytypes.h:12:0,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/cast.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/attr.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pybind11.h:43,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python/pybind_utils.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/opaque_types.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/vector.cpp:4:
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/detail/common.h:111:10: fatal error: Python.h: Arquivo ou diretório inexistente
+     #include <Python.h>
+              ^~~~~~~~~~
+    In file included from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pytypes.h:12:0,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/cast.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/attr.h:13,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/pybind11.h:43,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python/pybind_utils.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/dlib/../dlib/python.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/opaque_types.h:6,
+                     from /tmp/pip-install-8v1ldwb6/dlib/tools/python/src/svm_c_trainer.cpp:4:
+    /tmp/pip-install-8v1ldwb6/dlib/dlib/external/pybind11/include/pybind11/detail/common.h:111:10: fatal error: Python.h: Arquivo ou diretório inexistente
+     #include <Python.h>
+              ^~~~~~~~~~
+    compilation terminated.
+    compilation terminated.
+    compilation terminated.
+    compilation terminated.
+    CMakeFiles/dlib_python.dir/build.make:134: recipe for target 'CMakeFiles/dlib_python.dir/src/svm_c_trainer.cpp.o' failed
+    make[2]: *** [CMakeFiles/dlib_python.dir/src/svm_c_trainer.cpp.o] Error 1
+    make[2]: ** Esperando que outros processos terminem.
+    CMakeFiles/dlib_python.dir/build.make:86: recipe for target 'CMakeFiles/dlib_python.dir/src/matrix.cpp.o' failed
+    make[2]: *** [CMakeFiles/dlib_python.dir/src/matrix.cpp.o] Error 1
+    CMakeFiles/dlib_python.dir/build.make:110: recipe for target 'CMakeFiles/dlib_python.dir/src/vector.cpp.o' failed
+    make[2]: *** [CMakeFiles/dlib_python.dir/src/vector.cpp.o] Error 1
+    CMakeFiles/dlib_python.dir/build.make:62: recipe for target 'CMakeFiles/dlib_python.dir/src/dlib.cpp.o' failed
+    make[2]: *** [CMakeFiles/dlib_python.dir/src/dlib.cpp.o] Error 1
+    CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/dlib_python.dir/all' failed
+    make[1]: *** [CMakeFiles/dlib_python.dir/all] Error 2
+    Makefile:83: recipe for target 'all' failed
+    make: *** [all] Error 2
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-8v1ldwb6/dlib/setup.py", line 261, in <module>
+        'Topic :: Software Development',
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/site-packages/setuptools/__init__.py", line 145, in setup
+        return distutils.core.setup(**attrs)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/core.py", line 148, in setup
+        dist.run_commands()
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/dist.py", line 966, in run_commands
+        self.run_command(cmd)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/site-packages/setuptools/command/install.py", line 61, in run
+        return orig.install.run(self)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/command/install.py", line 545, in run
+        self.run_command('build')
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/command/build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/distutils/dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "/tmp/pip-install-8v1ldwb6/dlib/setup.py", line 135, in run
+        self.build_extension(ext)
+      File "/tmp/pip-install-8v1ldwb6/dlib/setup.py", line 175, in build_extension
+        subprocess.check_call(cmake_build, cwd=build_folder)
+      File "/home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/lib/python3.7/subprocess.py", line 347, in check_call
+        raise CalledProcessError(retcode, cmd)
+    subprocess.CalledProcessError: Command '['cmake', '--build', '.', '--config', 'Release', '--', '-j4']' returned non-zero exit status 2.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/elmapul/Downloads/Programas/blender-2.82-linux64/2.82/python/bin/python3.7m -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-8v1ldwb6/dlib/setup.py'"'"'; __file__='"'"'/tmp/pip-install-8v1ldwb6/dlib/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-vadv6g5c/install-record.txt --single-version-externally-managed --user --prefix= --compile --install-headers /home/elmapul/.local/include/python3.7m/dlib Check the logs for full command output.
