@@ -17,3 +17,17 @@ sudo ln -s /usr/share/doc/wine-stable/examples/wine.desktop /usr/share/applicati
 
 #thumbnails no dolphin
 https://askubuntu.com/questions/1170475/dolphin-under-gnome-doesnt-display-any-thumbnail-how-to-fix
+
+
+#install git
+sudo apt install git
+
+#install assembly compiler
+
+git pull
+./emsdk install latest
+./emsdk activate latest
+source ./emsdk_env.sh
+
+#add to bash.rc
+source /home/elmapul/Documentos/programas/emsdk/emsdk_env.sh
